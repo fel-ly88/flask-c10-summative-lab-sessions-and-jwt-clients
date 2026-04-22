@@ -10,12 +10,19 @@ You will not need to modify this frontend. However, your backend must implement 
 
 1. **Install dependencies**
    ```bash
-   npm install
+   pip install flask-restful flask flask-sqlalchemy flask-migrate flask-bcrypt faker
    ```
 
 2. **Start the application**
+
    ```bash
-   npm start
+
+   cd to client-with-sessions
+
+   -run port 5555 first(   source /home/ryzen/Documents/fel4/flask-c10-summative-lab-sessions-and-jwt-clients/.venv/bin/activate)
+
+  
+   -open another terminal and and run(npm start)
    ```
 
 3. **Backend requirements**
@@ -23,6 +30,7 @@ You will not need to modify this frontend. However, your backend must implement 
    - Expose routes that manage login, signup, logout, and session checking.
    - Should run on port 5555 to match proxy in package.json.
    - Return JSON responses for all routes.
+   
 
 ---
 
